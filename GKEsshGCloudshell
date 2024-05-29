@@ -1,0 +1,14 @@
+
+1) Set the Project and Compute Zone:-
+
+gcloud config set project <YOUR_PROJECT_ID>
+gcloud config set compute/zone <YOUR_COMPUTE_ZONE>
+
+2)Get the Cluster Credentials:-
+
+gcloud container clusters get-credentials <YOUR_CLUSTER_NAME>
+kubectl get nodes
+
+3) now use kubectl commands 
+ex. List the Nodes in Your GKE Cluster:
+kubectl get nodes
